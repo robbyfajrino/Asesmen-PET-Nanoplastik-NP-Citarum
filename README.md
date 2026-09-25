@@ -42,7 +42,7 @@ Deterministic: seed `20260904`, so every run reproduces the same numbers.
 | `build_workbook.py` | the XLSX assembly: formatted tables, Excel-side regressions, native charts, figure gallery |
 | `run.py` | one entry point |
 
-## Workbook sheets
+## Workbook sheets (see XLSX file)
 
 `0) README & method` · `1) Parameters & sources` · `2) Province ranking` ·
 `3) Stations & exposure` · `4) Ecotox dose-response` · `5) Biomarkers` · `5b) Biomarker summary` ·
@@ -56,5 +56,3 @@ and classes from PEC/PNEC formulas, RIAM scores from the A/B inputs, LCA shares 
 and the integrated index from editable weights in row 5 of sheet 14. Replace the blue input cells
 and everything downstream recomputes.
 
-Colour convention: **blue** = editable input, **black** = formula, **green** = cross-sheet link,
-**yellow** = assumption worth checking.
