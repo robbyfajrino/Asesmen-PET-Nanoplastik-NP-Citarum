@@ -1,19 +1,11 @@
 # Method notes, assumptions and limitations
 
-## 1. Honesty statement
+The purpose of this project is to demonstrate that the methodological chain — exposure characterisation → ecotoxicology → behaviour → risk assessment →
+EIA → LCA → integrated prioritisation | can be built, documented and audited end to end. So treat it as a working demonstrator, not as evidence about the Citarum.
 
-Every number in this package is **generated, not measured**. There is no field campaign, no
-laboratory exposure and no licensed LCI database behind it. The purpose is to demonstrate that the
-methodological chain — exposure characterisation → ecotoxicology → behaviour → risk assessment →
-EIA → LCA → integrated prioritisation — can be built, documented and audited end to end. Treat it
-as a working demonstrator, not as evidence about the Citarum.
+Values were chosen so that orders of magnitude are defensible: nanoplastic effect concentrations in the hundreds to thousands of µg/L, ambient river concentrations in the tens of µg/L, PET cradle-to-grave GWP around 4–5 kg CO2e per kg resin. That calibration is a plausibility constraint, not a citation.
 
-Values were chosen so that orders of magnitude are defensible: nanoplastic effect concentrations in
-the hundreds to thousands of µg/L, ambient river concentrations in the tens of µg/L, PET cradle-to-
-grave GWP around 4–5 kg CO2e per kg resin. That calibration is a plausibility constraint, not a
-citation.
-
-## 2. Scope
+## 1. Scope
 
 - **Stressor:** PET nanoplastics, d50 ≈ 120 nm, spherical, no PS (out of the requested scope).
 - **Area:** Citarum basin, Jawa Barat, 8 stations from Situ Cisanti (reference) to Muara Gembong
