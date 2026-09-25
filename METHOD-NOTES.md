@@ -19,7 +19,7 @@ West Java was selected in the workbook itself (sheet 2), through a composite pre
 0.10 population density). The inputs to that score are synthetic too, but the decision rule is
 explicit and editable rather than asserted.
 
-## 3. Ecotoxicology
+## 2. Ecotoxicology
 
 - Responses are generated from a log-logistic model `E = top / (1 + (EC50/C)^slope)` with
   lognormal replicate noise, 4 replicates × 20 organisms.
@@ -34,13 +34,13 @@ explicit and editable rather than asserted.
 - Bioaccumulation uses tissue affinity factors (gut > gill > hepatopancreas/liver >> muscle) and
   a fixed uptake coefficient, so BCF is dose-independent by construction. Real BCFs are not.
 
-## 4. Behavioural dynamics
+## 3. Behavioural dynamics
 
 Six traits, effect scaled by `log10(dose)` and saturating in time as `1 - exp(-3.1 t)`. Direction
 of effect is fixed a priori: locomotion, feeding and aggression down; thigmotaxis and freezing up.
 No dose × time interaction beyond that separable form, and no recovery phase.
 
-## 5. Risk assessment
+## 4. Risk assessment
 
 - SSD: log-normal fit over 12 taxa (algae, macrophyte, rotifer, cladocerans, insect larva, mussel,
   prawn, fish). HC5 = 5th percentile; 95 % CI from 2000 bootstrap resamples.
@@ -54,7 +54,7 @@ No dose × time interaction beyond that separable form, and no recovery phase.
   metrics; the exposure sheet therefore also carries particle count, d50 and zeta potential so an
   alternative dose metric can be tested later.
 
-## 6. EIA
+## 5. EIA
 
 - Leopold: magnitude −5…+5 × importance 1…5, only interacting cells listed, both inputs editable.
 - RIAM: `ES = (A1 × A2) × (B1 + B2 + B3)` with the Pastakia & Jensen range bands. Scoring is
@@ -63,7 +63,7 @@ No dose × time interaction beyond that separable form, and no recovery phase.
   panel and documented reasoning per cell.
 - Mitigation measures are attached to every component so the matrix is decision-oriented.
 
-## 7. Screening LCA
+## 6. Screening LCA
 
 - Proxy characterisation factors, not ecoinvent. `A1` dominates (~48 % of GWP), which is the
   expected shape for virgin PET, but the absolute value should not be quoted.
@@ -76,7 +76,7 @@ No dose × time interaction beyond that separable form, and no recovery phase.
   methodologically and the weakest part empirically: fragmentation-to-nanoplastic yields in
   tropical rivers are essentially unquantified.
 
-## 8. Integrated scorecard
+## 7. Integrated scorecard
 
 Four sub-indices (ecotoxicity potential, risk, EIA-weighted significance, exposure level), each
 min-max normalised to 0–100 across the 8 stations, then combined with weights 0.30 / 0.35 / 0.20 /
@@ -87,7 +87,7 @@ min-max normalised to 0–100 across the 8 stations, then combined with weights 
 - The weights are a value judgement. They live in editable yellow cells so an alternative
   weighting can be tried in seconds.
 
-## 9. How to turn this into real work
+## 8. How to turn this into real work
 
 1. Replace sheet 3 with measured water and sediment concentrations (with method, LOD and recovery).
 2. Replace sheet 4 with laboratory dose-response, keeping the raw replicate rows.
