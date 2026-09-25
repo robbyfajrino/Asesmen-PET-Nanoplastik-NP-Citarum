@@ -5,9 +5,9 @@ deliberately excluded) in the **Citarum river basin, Jawa Barat, Indonesia**, on
 organisms — *Macrobrachium rosenbergii* (small crustacean) and *Oreochromis niloticus* (Nile
 tilapia).
 
-> **All data in this project is synthetic (dummy).** Values are generated from seeded random
+> **Disclaimer: The data that I put for this project is dummy/synthetic for my personal project.** The values are generated from seeded random
 > numbers and calibrated to sit inside plausible published ranges. Nothing here is a field
-> measurement and nothing here should be cited as one. See `METHOD-NOTES.md`.
+> measurement. So please, nothing here should be cited as one. See `METHOD-NOTES.md`.
 
 ## Run it
 
