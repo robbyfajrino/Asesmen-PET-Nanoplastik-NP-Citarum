@@ -1,4 +1,4 @@
-# PET nanoplastics in the Citarum basin (sungai Citarum) — Integrated Assessment
+# PET nanoplastics in the Citarum River basin (sungai Citarum) — Integrated Assessment
 
 Personal methodological project: an integrated assessment of **PET nanoplastics** (polystyrene
 deliberately excluded) in the **Citarum river basin, Jawa Barat, Indonesia**, on two local test
@@ -50,7 +50,7 @@ Deterministic: seed `20260904`, so every run reproduces the same numbers.
 `10) EIA Leopold matrix` · `11) EIA RIAM scoring` · `12) LCA inventory` ·
 `13) LCA impacts & EOL` · `14) Integrated scorecard` · `15) Charts` · `Change-log`
 
-The workbook is **live**, not a value dump: LC50/EC50 come from Excel `SLOPE`/`INTERCEPT`
+The workbook is live, not a value dump: LC50/EC50 come from Excel `SLOPE`/`INTERCEPT`
 regressions on logit-transformed means, HC5 and PNEC from `NORM.S.INV` on the SSD, risk quotients
 and classes from PEC/PNEC formulas, RIAM scores from the A/B inputs, LCA shares from stage sums,
 and the integrated index from editable weights in row 5 of sheet 14. Replace the blue input cells
