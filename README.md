@@ -1,4 +1,4 @@
-# PET nanoplastics in the Citarum basin — integrated assessment
+# PET nanoplastics in the Citarum basin (sungai Citarum) — Integrated Assessment
 
 Personal methodological project: an integrated assessment of **PET nanoplastics** (polystyrene
 deliberately excluded) in the **Citarum river basin, Jawa Barat, Indonesia**, on two local test
