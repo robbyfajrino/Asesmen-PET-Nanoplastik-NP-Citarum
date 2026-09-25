@@ -1,4 +1,4 @@
-# PET nanoplastics in the Citarum basin — integrated assessment (synthetic demonstrator)
+# PET nanoplastics in the Citarum basin — integrated assessment
 
 Personal methodological project: an integrated assessment of **PET nanoplastics** (polystyrene
 deliberately excluded) in the **Citarum river basin, Jawa Barat, Indonesia**, on two local test
@@ -12,8 +12,8 @@ tilapia).
 ## Run it
 
 ```bash
-python pet-nano-citarum/run.py            # writes to /mnt/documents/PET-Nano-Citarum
-python pet-nano-citarum/run.py <outdir>   # or a directory of your choice
+python Asesmen-PET-Nanoplastik-NP-Citarum/run.py            # writes to /mnt/documents/PET-Nano-Citarum
+python Asesmen-PET-Nanoplastik-NP-Citarum/run.py <outdir>   # or a directory of your choice
 ```
 
 Deterministic: seed `20260904`, so every run reproduces the same numbers.
@@ -58,9 +58,3 @@ and everything downstream recomputes.
 
 Colour convention: **blue** = editable input, **black** = formula, **green** = cross-sheet link,
 **yellow** = assumption worth checking.
-
-## Verified before delivery
-
-- LibreOffice recalculation: 460 formulas, **0 formula errors** (no `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?`)
-- all 11 figures rendered and visually inspected
-- every table carries a `data_status` column stating that it is synthetic
